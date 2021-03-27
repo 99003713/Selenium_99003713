@@ -11,8 +11,8 @@ public class Practice {
 	
 	public static void main(String[] args) throws InterruptedException {
     System.out.println("Wlcome to selenium ");
-    System.setProperty("webdriver.chrome.driver", "C:\\Users\\Training\\Desktop\\chromedriver.exe");  // set path of 
-    WebDriver driver = new ChromeDriver();   // create object of firefox
+    System.setProperty("webdriver.chrome.driver", "C:\\Users\\Training\\Desktop\\chromedriver.exe");  // set path of chrome driver
+    WebDriver driver = new ChromeDriver();   // create object of chromedriver
     driver.get("https://www.seleniumeasy.com/test/basic-select-dropdown-demo.html");
     
     
